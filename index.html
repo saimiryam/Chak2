@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>חיבוק לשקד</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+            color: white;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        button {
+            background-color: deeppink;
+            color: white;
+            font-size: 2em;
+            border: none;
+            padding: 20px 40px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        #coupon {
+            margin-top: 50px;
+            font-size: 2em;
+            background: rgba(255, 105, 180, 0.8);
+            padding: 20px;
+            border-radius: 30px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>תלחצי עליי</h1>
+    <button onclick="document.getElementById('coupon').style.display='block'">לחצי כאן</button>
+    <div id="coupon">קופון לחיבוק חם מסאי!</div>
+</body>
+</html>
